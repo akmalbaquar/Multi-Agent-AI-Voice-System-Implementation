@@ -84,3 +84,6 @@ grafana_data/
 # Uploads
 uploads/
 media/
+
+# Video recordings
+incoming call log.mp4
