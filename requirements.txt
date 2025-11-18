@@ -1,0 +1,43 @@
+# Core Framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.3.0
+
+# Twilio for call webhooks
+twilio==9.2.3
+
+# Speech To Text (Deepgram)
+deepgram-sdk==3.2.7
+
+# Text To Speech (ElevenLabs)
+elevenlabs==1.7.0
+
+# OpenAI GPT-4o-mini (LLM)
+openai==1.30.1
+
+# Redis for state/context
+redis==5.0.3
+
+# Database support
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# HTTP requests
+httpx==0.27.0
+requests==2.31.0
+
+# Websocket support (for audio streaming)
+websockets==12.0
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# For audio processing
+pydub==0.25.1
+numpy==1.26.4
+
+
+python-multipart==0.0.20
